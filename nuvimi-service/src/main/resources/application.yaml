@@ -1,0 +1,11 @@
+server:
+  port: 9999
+
+spring:
+   jpa:
+     hibernate:
+       ddl-auto: update
+   datasource:
+     url: jdbc:mysql://localhost:3306/nuvimi?useSSL=false
+     username: nuvimi_app_owner
+     password: Fall2018
